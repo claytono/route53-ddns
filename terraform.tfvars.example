@@ -1,0 +1,9 @@
+username = "route53-ddns"
+password = "<password here!>"
+
+# TTL for records in seconds.  Defaults to 300 seconds
+ttl = 3600
+
+# Set to "true" to enable debug level logging.  This must be a string.
+debug = "true"
+

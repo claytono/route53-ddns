@@ -1,0 +1,6 @@
+*.zip
+*.pyc
+.tox
+.terraform
+terraform.tfvars
+remote-state.tf
