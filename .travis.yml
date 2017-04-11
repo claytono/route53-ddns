@@ -4,5 +4,10 @@ language: python
 python:
   # Lambda only supports 2.7 for now
   - '2.7'
-install: pip install tox-travis
-script: tox
+
+env:
+  - TOX_ENV=py27
+  - TOX_ENV=pep8
+
+install: pip install tox
+script: tox -e $TOX_ENV
