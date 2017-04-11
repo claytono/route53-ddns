@@ -1,5 +1,7 @@
 # Route 53 DynDNS API
 
+[![Build Status](https://travis-ci.org/claytononeill/route53-ddns.svg?branch=master)](https://travis-ci.org/claytononeill/route53-ddns)
+
 This project implements a DynDNS v2 API compatible front end for the AWS Route
 53 service.  This allows most consumer routers and any other DynDNS compatible
 clients to update `A` records in Route 53 hosted domains.
