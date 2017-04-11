@@ -1,0 +1,7 @@
+---
+sudo: false
+language: python
+python:
+  # Lambda only supports 2.7 for now
+  - '2.7'
+script: tox
