@@ -1,6 +1,12 @@
 # Route 53 DynDNS API
 
-[![Build Status](https://travis-ci.org/claytononeill/route53-ddns.svg?branch=master)](https://travis-ci.org/claytononeill/route53-ddns)
+## This project is no longer active
+
+Rather than upgrade this to Python3, I've moved to using
+[ddns-route53](https://github.com/crazy-max/ddns-route53) running in a kube pod
+in my home network.
+
+## Overview
 
 This project implements a DynDNS v2 API compatible front end for the AWS Route
 53 service.  This allows most consumer routers and any other DynDNS compatible
