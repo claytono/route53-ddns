@@ -4,3 +4,5 @@
 .terraform
 terraform.tfvars
 remote-state.tf
+terraform.tfstate
+terraform.tfstate.backup
